@@ -44,6 +44,7 @@ async def sender_bH(event):
             await BotzHubUser.send_message(
                 i,
                 event.message
+                print("| pl")
             )
         except Exception as e:
             print(e)
